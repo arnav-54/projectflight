@@ -107,18 +107,18 @@ const HomePage: React.FC = () => {
             Sign up today and get exclusive access to special deals and personalized travel recommendations.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <link 
+            <a 
               href="/register" 
               className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-md shadow hover:bg-gray-100 transition-colors"
             >
               Sign Up Now
-            </link>
-            <link
+            </a>
+            <a
               href="/search" 
               className="px-8 py-3 bg-transparent border-2 border-white font-semibold rounded-md hover:bg-white/10 transition-colors"
             >
               Search Flights
-            </link>
+            </a>
           </div>
         </div>
       </section>
